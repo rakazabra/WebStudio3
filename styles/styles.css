@@ -4,7 +4,7 @@ a {
 
 
 a {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -41,9 +41,19 @@ footer {
 
 button {
    background-color: #2196f3;
+   color: white;
    height: 50px;
 }
 
 .footer2 {
-    font-size: 30px;   
+    font-size: 30px;  
+    color: black; 
+}
+
+span {
+    color: blue;
+}
+
+.link {
+    color: black;
 }

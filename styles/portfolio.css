@@ -11,18 +11,9 @@ a {
 }
 
 .studio {
-    font: bold;
+    font: "bold";
 }
 
-a {
-    background-color: rgb(214, 214, 214);
+footer {
+    color: white;
 }
-
-.portfolio {
-    background-color: rgba(235, 235, 235, 0.76);
-}
-
-footer  {
-    background-color: #2f303a;
-}
-
