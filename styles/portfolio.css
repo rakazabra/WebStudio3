@@ -7,7 +7,7 @@ a {
 }
 
 .studio {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .studio {
@@ -16,4 +16,8 @@ a {
 
 footer {
     color: white;
+}
+
+span {
+    color: blue;
 }
