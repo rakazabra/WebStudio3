@@ -16,8 +16,16 @@ a {
 
 footer {
     color: white;
+    background-color:rgb(47,48,58);
 }
 
 span {
     color: blue;
+}
+
+.email {
+    opacity: 0.6;
+}
+.email2 {
+    opacity: 0.6;
 }

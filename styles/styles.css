@@ -47,7 +47,8 @@ button {
 
 .footer2 {
     font-size: 30px;  
-    color: black; 
+    background-color:rgb(47,48,58); 
+    color: white;
 }
 
 span {
@@ -68,4 +69,11 @@ span {
 
 h1 {
     color: white;
+}
+
+.email {
+    opacity: 0.6;
+}
+.email2 {
+    opacity: 0.6;
 }
