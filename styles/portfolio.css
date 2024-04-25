@@ -7,7 +7,7 @@ a {
 }
 
 .studio {
-    font-size: 30px;
+    color: inherit;
 }
 
 .studio {
@@ -28,4 +28,8 @@ span {
 }
 .email2 {
     opacity: 0.6;
+}
+
+.tel2 {
+    color: rgb(255,255,255,60%);
 }

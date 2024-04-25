@@ -52,7 +52,7 @@ button {
 }
 
 span {
-    color: blue;
+    color: 2196F3;
 }
 
 .link {
@@ -71,9 +71,13 @@ h1 {
     color: white;
 }
 
-.email {
+.footer_links {
     opacity: 0.6;
 }
-.email2 {
-    opacity: 0.6;
+.footer_links {
+  color: rgb(255,255,255,60%);
+}
+
+address p {
+    color: #FFFFFF,;
 }
