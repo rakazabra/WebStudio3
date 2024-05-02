@@ -33,3 +33,15 @@ span {
 .tel2 {
     color: rgb(255,255,255,60%);
 }
+
+nav {
+    font-family:'Raleway' ;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+footer {
+    font-family: 'Raleway';
+}
