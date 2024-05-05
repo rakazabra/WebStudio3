@@ -35,13 +35,15 @@ span {
 }
 
 nav {
-    font-family:'Raleway' ;
+    font-family:'Raleway';
+    font-weight: 135px;
 }
 
 body {
     font-family: 'Roboto';
 }
 
-footer {
+span {
     font-family: 'Raleway';
+    font-weight: 145px;
 }

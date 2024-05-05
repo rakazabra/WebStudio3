@@ -30,12 +30,15 @@ footer {
 
 .pluses {
     padding: 100px 20px;
+    font-weight: 48px;
+    font-family: "Roboto";
 }
 
 .link2 {
     border: 10px;
 
     height: 200px;
+    font-weight: 900;
 
 }
 
@@ -92,6 +95,12 @@ address p {
     font-family: 'Roboto';
   }
 
-  footer {
+  span {
     font-family: 'Raleway';
+    font-weight: 145px;
+  }
+
+  nav {
+    font-weight: 45;
+    font-family: "Roboto";
   }
