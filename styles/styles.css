@@ -68,6 +68,7 @@ span {
 
 .footer2 {
     font-size: 30px;
+    
 }
 
 h1 {
@@ -95,7 +96,7 @@ address p {
     font-family: 'Roboto';
   }
 
-  span {
+  .link {
     font-family: 'Raleway';
     font-weight: 145px;
   }
