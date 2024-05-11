@@ -1,17 +1,11 @@
 a {
     text-decoration: none;
-}
-
-a {
     color: black;
 }
 
-.studio {
-    color: inherit;
-}
-
-.studio {
+.nav-studio {
     font: "bold";
+    color: inherit;
 }
 
 footer {
@@ -21,29 +15,32 @@ footer {
 
 span {
     color: blue;
+    font-family: 'Raleway';
+    font-weight: 700;
 }
 
 .email {
     opacity: 0.6;
 }
-.email2 {
-    opacity: 0.6;
-}
 
-.tel2 {
+.telefon {
     color: rgb(255,255,255,60%);
 }
 
 nav {
     font-family:'Raleway';
-    font-weight: 135px;
+    font-weight: 500;
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
 }
 
-span {
-    font-family: 'Raleway';
-    font-weight: 145px;
+.footer-studio {
+    font-weight: 700;
+    color: inherit;
+}
+
+.footer-address {
+    color: white;
 }
