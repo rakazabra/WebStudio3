@@ -9,7 +9,7 @@ a {
 
 
 .link {
-    font-size: 30px ;
+    font-size: 700;
 }   
 
 .link2 {
@@ -43,17 +43,8 @@ footer {
 }
 
 button {
-   background-color: #2196f3;
-   color: white;
-   height: 50px;
+   background-color: 
 }
-
-.footer2 {
-    font-size: 30px;  
-    background-color:rgb(47,48,58); 
-    color: white;
-}
-
 span {
     color: 2196F3;
 }
@@ -68,7 +59,7 @@ span {
 
 .footer2 {
     font-size: 30px;
-    
+
 }
 
 h1 {
