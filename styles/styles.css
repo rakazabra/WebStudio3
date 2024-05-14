@@ -27,6 +27,7 @@ h2 {
 
 footer {
     background-color: #2f303a;
+    font-family: "Releway";
 }
 
 .main-team {
@@ -49,7 +50,7 @@ footer {
 
 
 span {
-    color: blue;
+    color: #2196F3;
 }
 
 .footer-logo {

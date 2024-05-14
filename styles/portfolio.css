@@ -14,7 +14,7 @@ footer {
 }
 
 span {
-    color: blue;
+    color: #2196F3;
     font-family: 'Raleway';
     font-weight: 700;
 }
@@ -43,4 +43,8 @@ body {
 
 .footer-address {
     color: white;
+}
+
+footer {
+    font-family: "Releway";
 }
