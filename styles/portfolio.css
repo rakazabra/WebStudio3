@@ -5,7 +5,7 @@ a {
 
 .nav-studio {
     font: "bold";
-    color: inherit;
+    color: white;
 }
 
 footer {
@@ -21,6 +21,7 @@ span {
 
 .email {
     opacity: 0.6;
+    color: rgba(rgb(255, 255, 255, 60), rgb(255, 255, 255), rgb(255, 255, 255), alpha);
 }
 
 .telefon {
@@ -38,7 +39,7 @@ body {
 
 .footer-studio {
     font-weight: 700;
-    color: inherit;
+    color: white;
 }
 
 .footer-address {
