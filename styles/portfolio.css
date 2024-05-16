@@ -48,3 +48,10 @@ body {
 footer {
     font-family: "Releway";
 }
+nav {
+    font-weight: 700;
+}
+
+.main-img {
+    color: gray;
+}

@@ -38,6 +38,7 @@ footer {
     padding: 100px 20px;
     font-weight: 400;
     font-family: "Roboto";
+    
 }
 
 
@@ -45,6 +46,7 @@ footer {
 
 .main-button {
    background-color:#2f303a;
+   color: #2196F3;
 }
 
 
@@ -85,4 +87,12 @@ h1 {
   .navigation {
     font-weight: 45;
     font-family: "Roboto";
+  }
+  nav {
+    font-weight: 700;
+  }
+
+
+  .team-desc {
+    color: gray;
   }
