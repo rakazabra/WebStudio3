@@ -10,7 +10,7 @@ a {
 
 .navigation-logo {
     font-weight: 700;
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: 'Raleway';
 }   
 
@@ -57,6 +57,8 @@ span {
 
 .footer-logo {
     font-weight: 400px;
+    color: white;
+    font-family: "Raleway";
 
 }
 
@@ -95,4 +97,30 @@ h1 {
 
   .team-desc {
     color: gray;
+  }
+
+  .main-desc {
+    color: gray;
+  }
+
+
+  .header-tel {
+    color: grey;
+  }
+
+
+  .header-email {
+    color: gray;
+  }
+
+  .navigation-link {
+    color: #212121;
+  }
+
+  .main-title {
+    font-size: 14px;
+  }
+  .team-name {
+    font-weight: 500;
+    font-size: 16px;
   }

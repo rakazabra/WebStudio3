@@ -5,7 +5,6 @@ a {
 
 .nav-studio {
     font: "bold";
-    color: white;
 }
 
 footer {
@@ -20,12 +19,11 @@ span {
 }
 
 .email {
-    opacity: 0.6;
-    color: rgba(rgb(255, 255, 255, 60), rgb(255, 255, 255), rgb(255, 255, 255), alpha);
+   color: grey;
 }
 
 .telefon {
-    color: rgb(255,255,255,60%);
+    color:gray;
 }
 
 nav {
@@ -39,7 +37,9 @@ body {
 
 .footer-studio {
     font-weight: 700;
+    font-size: 26px;
     color: white;
+    font-family: "Raleway";
 }
 
 .footer-address {
@@ -55,4 +55,8 @@ nav {
 
 .main-img {
     color: gray;
+}
+
+.nav-link {
+    color: #212121;
 }
