@@ -28,7 +28,6 @@ h2 {
 
 footer {
     background-color: #2f303a;
-    font-family: "Releway";
 }
 
 .main-team {
@@ -70,8 +69,7 @@ h1 {
 }
 
 .footer_links {
-    opacity: 0.6;
-    color: rgb(255,255,255,);
+    color: rgb(255,255,255,60%);
 }
 
 .footer-address {

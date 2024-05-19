@@ -5,6 +5,7 @@ a {
 
 .nav-studio {
     font: "bold";
+    font-size: 26px;
 }
 
 footer {
@@ -19,15 +20,14 @@ span {
 }
 
 .email {
-   color: grey;
+   color: #757575;
 }
 
 .telefon {
-    color:gray;
+    color:#757575;
 }
 
 nav {
-    font-family:'Raleway';
     font-weight: 500;
 }
 
@@ -54,9 +54,13 @@ nav {
 }
 
 .main-img {
-    color: gray;
+    color: #757575;
 }
 
 .nav-link {
     color: #212121;
+}
+
+.team-title {
+    font-size: 18px;
 }
