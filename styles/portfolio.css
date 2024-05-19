@@ -59,7 +59,10 @@ nav {
 
 .nav-link {
     color: #212121;
-}
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 14px;
+      }
 
 .team-title {
     font-size: 18px;
