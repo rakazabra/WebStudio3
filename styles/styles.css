@@ -19,6 +19,7 @@ a {
     border: 10px;
     height: 200px;
     font-weight: 900;
+    font-size: 44px;
 }
 
 h2 {
@@ -47,6 +48,8 @@ footer {
 .main-button {
    background-color:#2196F3;
    color: white;
+   font-size: 16px;
+   font-family: "Roboto";
 }
 
 
