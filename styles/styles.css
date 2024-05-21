@@ -1,134 +1,131 @@
 body {
-    font-family: "Roboto" sans-serif;
+  font-family: "Roboto" sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
 
 .navigation-logo {
-    font-weight: 700;
-    color: rgb(0, 0, 0);
-    font-family: 'Raleway';
-     font-size: 26px;
-}   
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-family: 'Raleway';
+  font-size: 26px;
+}
 
-.main-link {
-    background-color: #2f303a;
-    border: 10px;
-    height: 200px;  
+.hero {
+  background-color: #2f303a;
+  border: 10px;
+  height: 200px;
 }
 
 h2 {
-    color: black;
+  color: black;
 }
 
 footer {
-    background-color: #2f303a;
+  background-color: #2f303a;
 }
 
-.main-team {
-    padding: 100px 20px;
+.main {
+  padding: 100px 20px;
 }
 
 .main-pluses {
-    padding: 100px 20px;
-    font-weight: 400;
-    font-family: "Roboto";
-    
+  padding: 100px 20px;
+  font-weight: 400;
+  font-family: "Roboto";
+
 }
 
 
 
 
-.main-button {
-   background-color:#2196F3;
-   color: white;
-   font-size: 16px;
-   font-family: "Roboto";
+.hero-button {
+  background-color: #2196F3;
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto";
 }
 
 
 
 span {
-    color: #2196F3;
+  color: #2196F3;
 }
 
 .footer-logo {
-    font-weight: 700;
-    color: white;
-    font-family: "Raleway";
+  font-weight: 700;
+  color: white;
+  font-family: "Raleway";
 
 }
 
 h1 {
-    color: white;
+  color: white;
 }
 
 .footer_links {
-    color: rgb(255,255,255,60%);
+  color: rgb(255, 255, 255, 60%);
 }
 
 .footer-address {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
 
-  body {
-    font-family: 'Roboto';
-  }
-
-
-  .navigation {
-    font-weight: 45;
-    font-family: "Roboto";
-  }
-  nav {
-    font-weight: 700;
-  }
+body {
+  font-family: 'Roboto';
+}
 
 
-  .team-desc {
-    color: gray;
-  }
+.header-nav {
+  font-weight: 45;
+  font-family: "Roboto";
+}
 
-  .main-desc {
-    color: gray;
-  }
-
-
-  .header-tel {
-    color: #757575;
-    
-  }
+nav {
+  font-weight: 700;
+}
 
 
-  .header-email {
-    color: gray;
-  }
+.team-desc {
+  color: gray;
+}
 
-  .navigation-link {
-    color: #212121;
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 14px;
-  }
+.main-text {
+  color: gray;
+}
 
-  .main-title {
-    font-size: 14px;
-  }
-  .team-name {
-    font-weight: 500;
-    font-size: 16px;
-  }
 
-  h1 {
-    font-size: 44px;
-  }
+.header-item {
+  color: #757575;
+
+}
+
+.nav-link {
+  color: #212121;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.advantages-item {
+  font-size: 14px;
+}
+
+.team-caption {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 44px;
+}
