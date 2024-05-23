@@ -34,7 +34,7 @@ a {
 }
 
 h2 {
-  color: black;
+  color: var(--logo-color)
 }
 
 footer {
