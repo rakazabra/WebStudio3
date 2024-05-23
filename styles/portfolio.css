@@ -1,6 +1,17 @@
+:root {
+    --accent-color: #2196F3;
+    --logo-color: #000;
+    --text-color: #212121;
+    --additional-color: #757575;
+    --footer-number: rgba(255, 255, 255, 0.60);
+    --footer-background: #2F303A;
+    --team-background: #F5F4FA;
+    --main-background: #FFF;
+}
+
 a {
     text-decoration: none;
-    color: black;
+    color: var(--logo-color);
 }
 
 .nav-studio {
@@ -9,22 +20,22 @@ a {
 }
 
 footer {
-    color: white;
-    background-color:rgb(47,48,58);
+    color: var(--main-background);
+    background-color: var(--footer-background);
 }
 
 span {
-    color: #2196F3;
+    color: var(--accent-color);
     font-family: 'Raleway';
     font-weight: 700;
 }
 
 .email {
-   color: #757575;
+    color: var(--additional-color);
 }
 
 .telefon {
-    color:#757575;
+    color: var(--additional-color);
 }
 
 nav {
@@ -38,31 +49,32 @@ body {
 .footer-studio {
     font-weight: 700;
     font-size: 26px;
-    color: white;
+    color: var(--main-background);
     font-family: "Raleway";
 }
 
 .footer-address {
-    color: white;
+    color: var(--main-background);
 }
 
 footer {
     font-family: "Releway";
 }
+
 nav {
     font-weight: 700;
 }
 
 .main-img {
-    color: #757575;
+    color: var(--additional-color);
 }
 
 .nav-link {
-    color: #212121;
-        font-family: "Roboto";
-        font-weight: 500;
-        font-size: 14px;
-      }
+    color: var(--text-color);
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+}
 
 .team-title {
     font-size: 18px;
