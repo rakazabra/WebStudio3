@@ -51,6 +51,15 @@ a {
   letter-spacing: 0.28px;
 }
 
+.header-item {
+  color: var(--additional-color);
+  font-family: "Roboto";
+  font-size: 14px;  
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
 .hero {
   background-color: var(--footer-background);
 }
