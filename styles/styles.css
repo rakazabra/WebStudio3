@@ -21,123 +21,156 @@ a {
 
 
 .header-logo {
-  font-weight: 700;
   color: var(--logo-color);
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 26px;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 0.78px;
+}
+
+.web-color {
+  color: var(--accent-color);
+}
+
+.nav-list {
+  color: var(--team-color);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.nav-link {
+  color: var(--additional-color);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
 }
 
 .hero {
   background-color: var(--footer-background);
-  border: 10px;
-  height: 200px;
 }
 
-h2 {
-  color: var(--logo-color)
-}
-
-footer {
-  background-color: var(--footer-background);
-}
-
-.main {
-  padding: 100px 20px;
-}
-
-.main-pluses {
-  padding: 100px 20px;
-  font-weight: 400;
+.hero-logo {
+  color: var(--main-background);
+  text-align: center;
   font-family: "Roboto";
-
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
 }
-
-
-
 
 .hero-button {
-  background-color: var(--accent-color);
-  color: var(--main-background);
-  font-size: 16px;
+  border-radius: 4px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.advantages {
+  background-color: var(--main-background);
+}
+
+.main-title {
   font-family: "Roboto";
-}
-
-
-
-span {
-  color: var(--accent-color);
-}
-
-.footer-logo {
+  font-size: 14px;
   font-weight: 700;
-  color: var(--main-background);
-  font-family: "Raleway";
-
-}
-
-h1 {
-  color: var(--main-background);
-}
-
-.footer_links {
-  color: var(--footer-number);
-}
-
-.footer-address {
-  color: var(--main-background);
-}
-
-.roboto-thin {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-body {
-  font-family: 'Roboto';
-}
-
-
-.header-nav {
-  font-weight: 45;
-  font-family: "Roboto";
-}
-
-nav {
-  font-weight: 700;
-}
-
-
-.team-desc {
-  color: var(--additional-color);
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
 
 .main-text {
   color: var(--additional-color);
-}
-
-
-.header-item {
-  color: var(--additional-color);
-
-}
-
-.nav-link {
-  color: var(--text-color);
   font-family: "Roboto";
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
 }
 
-.advantages-item {
-  font-size: 14px;
+.work-title {
+  color: var(--text-color);
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.team-title {
+  color: var(--text-color);
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
 }
 
 .team-caption {
-  font-weight: 500;
+  color: var(--text-color);
+  font-family: "Roboto";
   font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
 }
 
-h1 {
-  font-size: 44px;
+.team-desc {
+  color: var(--text-color);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.footer {
+  background-color: var(--footer-background);
+}
+
+.logo-color {
+  color: var(--accent-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.footer-logo {
+  color: var(--main-background);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.footer-address {
+  color: var(--main-background);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.footer-link {
+  color: var(--footer-number);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.42px;
 }
