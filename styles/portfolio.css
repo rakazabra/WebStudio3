@@ -11,76 +11,40 @@
 
 a {
     text-decoration: none;
-    color: var(--logo-color);
 }
 
 .header-logo {
-    color: var(--accent-color);
+    color: var(--logo-color);
     font-family: "Raleway";
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.38;
     letter-spacing: 0.78px;
-}
+  }
 
-footer {
-    color: var(--main-background);
-    background-color: var(--footer-background);
-}
+  .web-color {
+    color: var(--accent-color);
+  }
 
-span {
-    color: var(--text-color);
-    font-family: 'Raleway';
-    font-weight: 700;
-}
-
-.email {
-    color: var(--additional-color);
-}
-
-.telefon {
-    color: var(--additional-color);
-}
-
-nav {
-    font-weight: 500;
-}
-
-body {
-    font-family: 'Roboto' sans-serif;
-}
-
-.footer-studio {
-    font-weight: 700;
-    font-size: 26px;
-    color: var(--main-background);
-    font-family: "Raleway";
-}
-
-.footer-address {
-    color: var(--main-background);
-}
-
-footer {
-    font-family: "Releway";
-}
-
-nav {
-    font-weight: 700;
-}
-
-.main-img {
-    color: var(--additional-color);
-}
-
-.nav-link {
-    color: var(--text-color);
+  .nav-list {
+    color: var(--team-color);
     font-family: "Roboto";
-    font-weight: 500;
     font-size: 14px;
-}
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
+  
+  .nav-link {
+    color: var(--additional-color);
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
 
-.card-title {
-    font-size: 18px;
-}
+  .header-item {
+        
+  }
+

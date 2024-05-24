@@ -45,8 +45,7 @@ a {
 .nav-link {
   color: var(--additional-color);
   font-family: "Roboto";
-  font-size: 14px;
-  font-style: normal;
+  font-size: 14px;  
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
