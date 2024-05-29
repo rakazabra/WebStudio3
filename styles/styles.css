@@ -51,6 +51,11 @@ a {
   letter-spacing: 0.28px;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
 .header-item {
   color: var(--additional-color);
   font-family: "Roboto";
