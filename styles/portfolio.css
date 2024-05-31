@@ -36,12 +36,17 @@ a {
 }
 
 .nav-link {
-  color: var(--additional-color);
+  color: var(--logo-color);
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
 }
 
 .header-item {
@@ -65,7 +70,7 @@ a {
 
 .main-img {
   width: 370px;
-flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .card-title {
@@ -119,7 +124,7 @@ flex-shrink: 0;
 }
 
 .footer-link {
-  color:var(--footer-number);
+  color: var(--footer-number);
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 400;

@@ -43,7 +43,7 @@ a {
 }
 
 .nav-link {
-  color: var(--additional-color);
+  color: var(--logo-color);
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 500;
@@ -102,7 +102,6 @@ a {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-  flex-wrap: wrap;
 }
 
 .main-text {
@@ -112,18 +111,12 @@ a {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
-  flex-wrap: wrap;
-}
-
-.advantages-list {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .main-title {
   font-size: 1.2em;
   margin-bottom: 10px;
-} 
+}
 
 .work-title {
   color: var(--text-color);
@@ -157,7 +150,7 @@ a {
 }
 
 .team-desc {
-  color: var(--text-color);
+  color: var(--additional-color);
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
