@@ -63,6 +63,7 @@ ul {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
+
 }
 
 .nav-link {
@@ -71,6 +72,7 @@ ul {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
+  display: flex;
 }
 
 .nav-link:hover,
