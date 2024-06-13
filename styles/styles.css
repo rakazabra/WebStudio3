@@ -41,7 +41,6 @@ ul {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px solid red;
 }
 
 .header-logo {
@@ -51,6 +50,10 @@ ul {
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
+}
+
+.header-box {
+  display: flex;
 }
 
 .web-color {
@@ -72,7 +75,7 @@ ul {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
-  display: flex;
+  
 }
 
 .nav-link:hover,
@@ -87,6 +90,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.28px;
 }
+
 
 .hero {
   background-color: var(--footer-background);
@@ -110,11 +114,15 @@ ul {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 216px;
   height: 50px;
+  padding: 10px 32px;
+  margin-top: 30px;
+  align-items: center;
 }
 
 .advantages {
   background-color: var(--main-background);
 }
+
 
 main {
   display: block;
@@ -126,6 +134,8 @@ main {
   line-height: 1.14;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 94px;
 }
 
 .main-text {
@@ -148,7 +158,17 @@ main {
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
+  margin-top: 118px;
 }
+
+
+.work-box {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 188px;
+  margin-top: 50px;
+}
+
 
 .team-title {
   color: var(--text-color);
@@ -159,12 +179,22 @@ main {
   letter-spacing: 1.08px;
 }
 
+.team-box {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
+
 .team-caption {
   color: var(--text-color);
   font-size: 16px;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.18;
   letter-spacing: 0.48px;
+  margin-top: 30px;
+  margin-right: 70px;
+  margin-left: 71px;
 }
 
 .team-desc {
@@ -173,10 +203,14 @@ main {
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0.48px;
+  margin-bottom: 59px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .footer {
   background-color: var(--footer-background);
+height: 252px;
 }
 
 .logo-color {
@@ -186,6 +220,8 @@ main {
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .footer-logo {
@@ -203,6 +239,7 @@ main {
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
+  margin-bottom: 9px;
 }
 
 .footer-link {
@@ -211,4 +248,5 @@ main {
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
+  margin-bottom: 9px;
 }
