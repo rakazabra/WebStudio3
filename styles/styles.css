@@ -8,6 +8,8 @@
   --team-background: #f5f4fa;
   --main-background: #fff;
 }
+:root {
+}
 
 body {
   font-family: "Roboto" sans-serif;
@@ -148,7 +150,7 @@ main {
 
 .main-title {
   font-size: 1.2em;
-  margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 .work-title {
