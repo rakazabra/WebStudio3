@@ -54,9 +54,6 @@ ul {
   letter-spacing: 0.78px;
 }
 
-.header-box {
-  display: flex;
-}
 
 .web-color {
   color: var(--accent-color);
