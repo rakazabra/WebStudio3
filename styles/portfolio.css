@@ -96,10 +96,6 @@ ul {
   line-height: 1.62;
   letter-spacing: 0.48px;
   margin-right: 8px;
-
-
-.btn-box {
-  display: flex;
 }
 
 main {
@@ -168,4 +164,4 @@ main {
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
-} }
+} 
