@@ -46,10 +46,11 @@ ul {
 }
 
 .header {
-  padding-bottom: 25px;
+  padding-bottom: 25px; 
+  padding-top: 24px;
 }
 
-.header-container {
+.header-box {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -63,6 +64,7 @@ ul {
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
+  padding-right: 93px;
 }
 
 
@@ -79,6 +81,7 @@ ul {
   letter-spacing: 0.28px;
   display: flex;
   gap: 50px;
+  padding-right: 344px;
 }
 
 .nav-link {
@@ -111,8 +114,9 @@ ul {
 
 .hero {
   background-color: var(--footer-background);
-    padding-top: 100px;
-    padding-bottom: 94px; 
+    padding-top: 200px;
+    padding-bottom: 200px; 
+    text-align: center;
 }
 
 .hero-logo {
@@ -142,6 +146,11 @@ ul {
 .advantages {
   background-color: var(--main-background);
   padding-top: 94px;
+}
+
+.advantages-list {
+  display: flex;
+  margin-right: 30px;
 }
 
 
@@ -232,15 +241,6 @@ main {
 height: 252px;
 }
 
-.logo-color {
-  color: var(--accent-color);
-  font-family: "Raleway";
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.38;
-  letter-spacing: 0.78px;
-  margin-bottom: 20px;
-}
 
 .footer-logo {
   color: var(--main-background);
@@ -251,6 +251,19 @@ height: 252px;
   letter-spacing: 0.78px;
   margin-top: 60px;
 }
+
+
+.logo-color {
+  color: var(--accent-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 0.78px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
 
 .footer-address {
   color: var(--main-background);
