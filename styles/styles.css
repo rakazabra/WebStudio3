@@ -55,6 +55,7 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -64,7 +65,7 @@ ul {
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
-  padding-right: 93px;
+  margin-right: 93px;
 }
 
 
@@ -81,7 +82,7 @@ ul {
   letter-spacing: 0.28px;
   display: flex;
   gap: 50px;
-  padding-right: 344px;
+  margin-right: 344px;
 }
 
 .nav-link {
@@ -164,7 +165,7 @@ main {
   line-height: 1.14;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .main-text {
@@ -173,6 +174,10 @@ main {
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
+}
+
+.work {
+  padding-top: 118px;
 }
 
 .work-list {
@@ -189,7 +194,6 @@ main {
   line-height: 1.16;
   letter-spacing: 1.08px;
   margin-bottom: 50px;
-  padding-top: 118px;
 }
 
 
@@ -206,8 +210,7 @@ main {
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 1.08px;
-  margin-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .team-list {
@@ -222,8 +225,8 @@ main {
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.48px;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
