@@ -43,6 +43,7 @@ ul {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  outline: 1px solid red;
 }
 
 .header {
@@ -73,7 +74,9 @@ ul {
   color: var(--accent-color);
 }
 
-
+.header-nav {
+  margin-right: auto;
+}
 .nav-list {
   color: var(--team-color);
   font-size: 14px;
@@ -82,7 +85,7 @@ ul {
   letter-spacing: 0.28px;
   display: flex;
   gap: 50px;
-  margin-right: 344px;
+
 }
 
 .nav-link {
@@ -110,6 +113,11 @@ ul {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
+}
+
+.header-item:hover,
+.header-item:focus {
+  color:var(--accent-color) ;
 }
 
 
@@ -151,7 +159,7 @@ ul {
 
 .advantages-list {
   display: flex;
-  margin-right: 30px;
+  gap: 30px;
 }
 
 
@@ -177,7 +185,8 @@ main {
 }
 
 .work {
-  padding-top: 118px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .work-list {
@@ -200,7 +209,10 @@ main {
 .team {
   padding-bottom: 94px;
   padding-top: 94px;
+  background-color: var(--team-background);
 }
+
+
 
 
 .team-title {
@@ -218,6 +230,11 @@ main {
   gap: 30px;
 }
 
+.team-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color:var(--main-background);
+}
 
 .team-caption {
   color: var(--text-color);
@@ -225,7 +242,6 @@ main {
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.48px;
-  margin-top: 30px;
   margin-bottom: 10px;
   text-align: center;
 }
