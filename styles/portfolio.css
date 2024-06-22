@@ -121,9 +121,9 @@ ul {
   display: flex;
   text-align: center;
   gap: 8px;
-  margin-top: 94px;
   margin-bottom: 50px;
   justify-content: center;
+  padding-top: 94px;
 }
 
 .card-button {
