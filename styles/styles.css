@@ -43,9 +43,11 @@ ul {
   padding: 0 15px;
 }
 
+
 .header {
   padding-bottom: 25px; 
   padding-top: 24px;
+  justify-content: center;
 }
 
 .header-box {
