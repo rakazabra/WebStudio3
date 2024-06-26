@@ -175,12 +175,14 @@ padding-top: 20px;
 padding-bottom: 20px;
 padding-right: 24px;
 padding-left: 24px;
+border: 1px solid #EEE;
+background: var(--main-background);
 
 }
 
 .card-title {
   color: var(--text-color);
-font-size: 18px;
+font-size: 17px;
 font-weight: 700;
 line-height: 2; 
 letter-spacing: 1.08px;
