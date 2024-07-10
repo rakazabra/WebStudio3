@@ -183,6 +183,17 @@ main {
   letter-spacing: 0.42px;
 }
 
+.main-text::after {
+  width: 70px;
+  height: 70px;
+content: "";
+background-size: contain;
+display: inline-block;
+background-image: url(../image/antenna.png);
+background-repeat: no-repeat;
+background-color: var(--main-background);
+}
+
 .work {
   padding-top: 94px;
   padding-bottom: 94px;
