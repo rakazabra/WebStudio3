@@ -206,7 +206,7 @@ ul {
   background-repeat: no-repeat;
   background-color: var(--team-background);
   border-radius: 4px;
-  background-size: 270px;
+  background-size: contain;
   flex-shrink: 0;
 }
 
