@@ -182,7 +182,7 @@ ul {
   width: 270px;
   height: 120px;
   display: block;
-  background-image: url(../image/clock.png);
+  background-image: url(../image/clock.jpg);
   background-repeat: no-repeat;
   background-color: var(--team-background);
   border-radius: 4px;
@@ -195,7 +195,7 @@ ul {
   width: 270px;
   height: 120px;
   display: block;
-  background-image: url(../image/diagram.png);
+  background-image: url(../image/diagrama.jpg);
   background-repeat: no-repeat;
   background-color: var(--team-background);
   border-radius: 4px;
@@ -208,7 +208,7 @@ ul {
   width: 270px;
   height: 120px;
   display: block;
-  background-image: url(../image/astronavt.png);
+  background-image: url(../image/cosmonavt.jpg);
   background-repeat: no-repeat;
   background-color: var(--team-background);
   border-radius: 4px;
