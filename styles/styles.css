@@ -16,6 +16,7 @@ body {
 
 a {
   text-decoration: none;
+  font-style: normal;
 }
 
 h1,
@@ -125,7 +126,9 @@ ul {
     padding-top: 200px;
     padding-bottom: 200px; 
     text-align: center;
+
     background-image: url(../image/herobcg.jpg);
+    
 }
 
 
@@ -151,6 +154,7 @@ ul {
   height: 50px;
   padding: 10px 32px;
   align-items: center;
+  border: none;
 }
 
 .advantages {
@@ -168,7 +172,7 @@ ul {
   width: 270px;
   height: 120px;
   display: block;
-  background-image: url(../image/antena.jpg);
+  background-image: url(../image/antena.png);
   background-repeat: no-repeat;
   background-color: var(--team-background);
   border-radius: 4px;
@@ -182,7 +186,7 @@ ul {
   width: 270px;
   height: 120px;
   display: block;
-  background-image: url(../image/clock.jpg);
+  background-image: url(../image/clocl.png);
   background-repeat: no-repeat;
   background-color: var(--team-background);
   border-radius: 4px;
@@ -195,7 +199,7 @@ ul {
   width: 270px;
   height: 120px;
   display: block;
-  background-image: url(../image/diagrama.jpg);
+  background-image: url(../image/diagrama.png);
   background-repeat: no-repeat;
   background-color: var(--team-background);
   border-radius: 4px;
@@ -208,7 +212,7 @@ ul {
   width: 270px;
   height: 120px;
   display: block;
-  background-image: url(../image/cosmonavt.jpg);
+  background-image: url(../image/cosmonavt.png);
   background-repeat: no-repeat;
   background-color: var(--team-background);
   border-radius: 4px;
