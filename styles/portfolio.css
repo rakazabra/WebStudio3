@@ -124,7 +124,7 @@ ul {
 
 .header-item:hover,
 .header-item:focus {
-  color:var(--accent-color) ;
+  color:var(--accent-color);
 }
 
 .card {
@@ -152,6 +152,8 @@ ul {
   padding-bottom: 6px;
   padding-left: 25px;
   padding-right: 25px;
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+
 }
 
 .card-button:hover,
