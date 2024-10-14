@@ -285,6 +285,10 @@ margin-top: 30px;
   gap: 30px;
 }
 
+.work-box {
+  position: relative;
+}
+
 
 .work-title {
   color: var(--text-color);
@@ -298,14 +302,15 @@ margin-top: 30px;
 
 .work-plus {
   background-color: var(--work-pluses);
-  width: 370px;
+  /* width: 370px; */
   height: 70px;
   padding-top: 27px;
   padding-bottom: 27px;
   padding-right: 107px;
   padding-left: 107px;
   position: absolute;
-  bottom: 220px;
+  bottom: 0px;
+  width: 100%;
 }
 
 .plus-title {
@@ -524,6 +529,7 @@ padding-bottom: 60px;
 .footer-box {
   display: flex;
   gap: 70px;
+  align-items: baseline;
 }
 
 .footer-add {
@@ -538,6 +544,7 @@ padding-bottom: 60px;
 .social-flist {
   display: flex;
   gap: 10px;
+  margin-top: 20px;
 }
 
 .social-fitem {
