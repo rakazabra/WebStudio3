@@ -100,10 +100,12 @@ margin-right: auto;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
+  padding-bottom: 31px;
 }
 
 .active {
   color: var(--accent-color);
+  border-bottom: 4px solid var(--accent-color);
 }
 
 .nav-link:hover,
@@ -356,6 +358,11 @@ align-items: center;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
+.team-img {
+  width: 270px;
+height: 260px;
+}
+
 
 
 .team-box {
@@ -541,6 +548,17 @@ padding-bottom: 60px;
   letter-spacing: 0.42px;
 }
 
+.footer-enjoy {
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
 .social-flist {
   display: flex;
   gap: 10px;
@@ -551,6 +569,62 @@ padding-bottom: 60px;
   background-color: var(--footer-color);
   border-radius: 50px;
 }
+
+.sub-title {
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.send {
+  display: flex;
+}
+
+
+.sub-input {
+  width: 358px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.30);
+background: rgba(33, 150, 243, 0.00);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.48px;
+}
+
+
+.sub-send {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 28px;
+  padding-right: 28px;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+  margin-left: 12px;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 4px;
+}
+
+
 
 
 
