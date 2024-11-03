@@ -13,3 +13,6 @@
       document.body.classList.toggle("no-scroll");
     }
   })();
+
+  const SubInput = document.getElementsByClassName("sub-input");
+  SubValue = SubInput.value;

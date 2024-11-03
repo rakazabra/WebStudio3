@@ -422,10 +422,13 @@
       </section>
     </main>
 
+
+
     <footer class="footer">
       <div class="container">
         <div class="footer-box">
           <div class="footer-add">
+            
             <a href="../index.html" class="footer-logo"
               ><span class="logo-color">Web</span>Studio</a
             >
@@ -510,27 +513,29 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="data-modal-close" data-modal-close>close</button>
+        <svg class="modal-icon" data-modal-close>
+          <use href="./image/symbol-defs.svg#modal-close"></use>
+      </svg>
          <form class="modal-form">
           <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо  </h2>
           <label for="name" class="modal-signature">Ім'я</label>
           <div  class="modal-wraper">
               <input type="text" id="name" class="modal-input">
-          <svg class="modal-icon" >
-              <use href="./img/symbol-defs.svg#modal-user"></use>
+          <svg class="modal-icon">
+              <use href="./image/symbol-defs.svg#modal-user"></use>
           </svg>
       </div >
           <label for="phone" class="modal-signature">Телефон</label>
          <div  class="modal-wraper">
            <input type="tel" id="phone" class="modal-input">
           <svg class="modal-icon">
-              <use href="./img/symbol-defs.svg#smartphone"></use>
+              <use href="./image/symbol-defs.svg#modal-phone"></use>
           </svg>
       </div >
           <label for="mail" class="modal-signature">Пошта</label>
           <div  class="modal-wraper"><input type="email" name="" id="mail" class="modal-input">
           <svg class="modal-icon">
-              <use href="./img/symbol-defs.svg#icon-mail"></use>
+              <use href="./image/symbol-defs.svg#modal-mail"></use>
           </svg>
       </div>           
       <label for="com" class="modal-signature">Коментар</label>
