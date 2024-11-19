@@ -450,8 +450,9 @@
                   >
                 </li>
                 </ul>
+            </address>
               </div>
-              <div class="footer-add">
+              <div class="footer-add" id="join">
                 <h3 class="footer-enjoy">приєднуйтесь</h3>
                 <ul class="social-flist">
                   <li class="social-fitem">
@@ -495,7 +496,7 @@
               <div class="footer-add">
                 <h3 class="sub-title">Підпишіться на розсилку</h3>
                 <form class="send">
-                <input placeholder="E-mail" type="text" class="sub-input"><button class="sub-send">
+                <input placeholder="E-mail" type="text" class="sub-input" required><button class="sub-send">
                   Підписатися
                 <svg class="sub-teg"> <use href="./image/symbol-defs.svg#telegram"></use></svg></button>
               </form>
@@ -513,21 +514,21 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <svg class="modal-icon" data-modal-close>
+        <svg class="modal-icon-close" data-modal-close>
           <use href="./image/symbol-defs.svg#modal-close"></use>
       </svg>
          <form class="modal-form">
           <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо  </h2>
           <label for="name" class="modal-signature">Ім'я</label>
           <div  class="modal-wraper">
-              <input type="text" id="name" class="modal-input">
+              <input type="text" id="name" class="modal-input" required>
           <svg class="modal-icon">
               <use href="./image/symbol-defs.svg#modal-user"></use>
           </svg>
       </div >
           <label for="phone" class="modal-signature">Телефон</label>
          <div  class="modal-wraper">
-           <input type="tel" id="phone" class="modal-input">
+           <input type="tel" id="phone" class="modal-input" required>
           <svg class="modal-icon">
               <use href="./image/symbol-defs.svg#modal-phone"></use>
           </svg>
@@ -539,13 +540,13 @@
           </svg>
       </div>           
       <label for="com" class="modal-signature">Коментар</label>
-          <textarea name="" id="com" class="modal-com" placeholder="Введіть текст"></textarea>
+          <textarea id="com" class="modal-com" placeholder="Введіть текст"></textarea>
           <label class="modal-chek">
-              <input type="checkbox" class="chek-input"> 
+              <input type="checkbox" class="chek-input" required>
               <span class="chek-span">Погоджуюся з розсилкою та приймаю</span> 
               <a href="#" class="check-link"> Умови договору</a>
           </label>
-          <button type="submit" class="modal-btn">Відправити</button>
+          <button type="submit" class="modal-btn" id="modal-send-form">Відправити</button>
          </form> 
              
       </div>
