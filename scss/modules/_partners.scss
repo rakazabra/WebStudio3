@@ -1,0 +1,47 @@
+.partners {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &__title {
+        color: $text-color;
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.08px;
+        margin-bottom: 50px;
+        }
+
+        &__list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+          }
+
+          &__link {
+            width: 170px;
+          height: 92px;
+          border-radius: 4px;
+          border: 1px solid #AFB1B8;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          }
+
+          &__icon {
+            border-radius: 4px;
+            fill: $border;
+            width: 106px;
+            height: 60px;
+          }
+
+          &__icon:hover,
+            &__icon:focus {
+  fill: var(--accent-color);
+}
+
+
+          
+  }

@@ -1,0 +1,92 @@
+.team {
+    padding-bottom: 94px;
+    padding-top: 94px;
+    background-color: $team-background;
+
+    &__title {
+        color: $text-color;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 1.08px;
+        margin-bottom: 50px;
+      }
+
+      &__list {
+        display: flex;
+        gap: 30px;
+      }
+
+      &__item {
+        transition: transform 0.3s ease;
+      }
+      &__item:hover {
+        transform: translateY(-10px);
+      }
+
+      &__img {
+        width: 270px;
+      height: 260px;
+      }
+
+      &__box {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: $main-background;
+        border-radius: 0px 0px 4px 4px;
+      }
+
+      &__caption {
+        color: $text-color;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.18;
+        letter-spacing: 0.48px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      &__desc {
+        color: $additional-color;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.18;
+        letter-spacing: 0.48px;
+        text-align: center;
+      }
+  }
+
+  .social {
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16px;
+        gap: 10px;
+      }
+
+      &__link {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+//       &__link:hover,
+// &&__link:focus {
+//   background-color: $accent-color;
+// &social__icon {
+//   fill: white;
+// }
+// }
+
+&__icon {
+    width: 20px;
+    height: 20px;
+    fill: $border;
+  }
+  }
+  

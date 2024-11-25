@@ -1,0 +1,7 @@
+{
+    "scss.validate": true,
+    "editor.formatOnSave": true,          
+    "scss.lint.validVariables": true,      
+    "scss.lint.missingProperty": "warning"  
+  }
+  
