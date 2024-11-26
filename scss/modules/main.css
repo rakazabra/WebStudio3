@@ -690,10 +690,6 @@ main {
   border: none;
   outline: 1px solid gray;
 }
-.btn__close:hover, .btn__close:focus {
-  /* border: none;
-  outline: 1px solid gray; */
-}
 .btn__close:hover .icon-close, .btn__close:focus .icon-close {
   fill: #2196F3;
 }
