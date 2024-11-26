@@ -20,10 +20,12 @@
 
       &__item {
         transition: transform 0.3s ease;
+
+        &:hover {
+          transform: translateY(-10px);
+        }
       }
-      &__item:hover {
-        transform: translateY(-10px);
-      }
+    
 
       &__img {
         width: 270px;
@@ -73,15 +75,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+
+        &:hover,
+        &:focus {
+          background-color: $accent-color;
+       &social__icon {
+          fill: white;
+        }
+        }
       }
 
-//       &__link:hover,
-// &&__link:focus {
-//   background-color: $accent-color;
-// &social__icon {
-//   fill: white;
-// }
-// }
+
 
 &__icon {
     width: 20px;

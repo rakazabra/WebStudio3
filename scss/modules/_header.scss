@@ -80,37 +80,39 @@
     }
 
     &__link {
-      color: var(--logo-color);
+      color: $logo-color;
       font-size: 14px;
       font-weight: 500;
       line-height: 1.14;
       letter-spacing: 0.28px;
       padding-bottom: 31px;
       transition: transform 0.3s ease;
-    }
 
-    &__link:hover,
-    &__link:focus {
-      transform: translateY(-10px);
-      color: var(--accent-color);
-      border-bottom: 4px solid var(--accent-color);
-      .active {
-        color: var(--accent-color);
-        border-bottom: 4px solid var(--accent-color);
+      &:hover,
+      &:focus {
+        transform: translateY(-10px);
+        color: $accent-color;
+        border-bottom: 4px solid $accent-color;
+        .active {
+          color: $accent-color;
+          border-bottom: 4px solid $accent-color;
+        }
       }
     }
+
+
   }
   
   
   .web-color {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
 
 
   .active {
-    color: var(--accent-color);
-    border-bottom: 4px solid var(--accent-color);
+    color: $accent-color;
+    border-bottom: 4px solid $accent-color;
   }
   
   

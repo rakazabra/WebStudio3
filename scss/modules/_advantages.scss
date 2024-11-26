@@ -15,7 +15,7 @@
         display: block;
         background-image: url(/image/antena.png);
         background-repeat: no-repeat;
-        background-color: $additional-color;
+        background-color: $team-background;
         border-radius: 4px;
         flex-shrink: 0;
         background-position: center;
@@ -30,7 +30,6 @@
         display: block;
         background-image: url(/image/clocl.png);
         background-repeat: no-repeat;
-        background-color: $additional-color;
         border-radius: 4px;
         flex-shrink: 0;
         background-size: 70px;
@@ -43,7 +42,6 @@
         display: block;
         background-image: url(/image/cosmonavt.png);
         background-repeat: no-repeat;
-        background-color: $additional-color;
         border-radius: 4px;
         background-size: contain;
         flex-shrink: 0;
