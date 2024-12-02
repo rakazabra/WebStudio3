@@ -2,6 +2,7 @@
     background-color: $main-background;
     padding-top: 94px;
 
+
     &__list {
         display: flex;
         gap: 30px;
@@ -9,43 +10,22 @@
 
 
       &__item::before {
-        content: "";
-        width: 270px;
-        height: 120px;
-        display: block;
+        @include AdvantagesItemStyle;
         background-image: url(/image/antena.png);
-        background-repeat: no-repeat;
-        background-color: $team-background;
-        border-radius: 4px;
-        flex-shrink: 0;
-        background-position: center;
-        background-size: 70px;
+     
       }
 
 
       &__item:nth-child(3)::before {
-        content: "";
-        width: 270px;
-        height: 120px;
-        display: block;
+        @include AdvantagesItemStyle;
         background-image: url(/image/clocl.png);
-        background-repeat: no-repeat;
-        border-radius: 4px;
-        flex-shrink: 0;
-        background-size: 70px;
+    
       }
 
       &__item:nth-child(4)::before {
-        content: "";
-        width: 270px;
-        height: 120px;
-        display: block;
+        @include AdvantagesItemStyle;
         background-image: url(/image/cosmonavt.png);
-        background-repeat: no-repeat;
-        border-radius: 4px;
-        background-size: contain;
-        flex-shrink: 0;
-        background-size: 70px;
+   
       }
 
       &__title {

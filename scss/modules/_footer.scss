@@ -25,8 +25,7 @@
 
 
       &__box {
-        display: flex;
-        align-items: center;
+     @include contentCenter;
         gap: 93px;
       }
 

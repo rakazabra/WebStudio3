@@ -7,8 +7,7 @@
         width: 1200px;
         margin: 0 auto;
         padding: 0 15px;
-        display: flex;
-        align-items: center;
+        @include contentCenter;
       }
 
       &__logo {
@@ -21,8 +20,6 @@
         margin-right: 93px;
       }
 
-    
-
         &__list {
           display: flex;
           gap: 50px;
@@ -34,8 +31,7 @@
           font-weight: 500;
           line-height: 1.14;
           letter-spacing: 0.28px;
-          display: flex;
-          align-items: center;
+         @include contentCenter;
           gap: 10px;
           transition: transform 0.3s ease;
 

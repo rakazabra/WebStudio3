@@ -1,0 +1,18 @@
+@mixin contentCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin AdvantagesItemStyle {
+    content: "";
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: $team-background;
+    border-radius: 4px;
+    flex-shrink: 0;
+    background-position: center;
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
