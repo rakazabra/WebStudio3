@@ -16,21 +16,21 @@
 
 
 
-const ModalSend = document.getElementById("modal-send-form");
-const SubInput = document.getElementsByClassName("modal-input");
-SubValue = SubInput.value;
+// const ModalSend = document.getElementById("modal-send-form");
+// const SubInput = document.getElementsByClassName("modal-input");
+// SubValue = SubInput.value;
 
-function CheckModalInput() {
-  if(SubValue === "") {
-    ModalSend.setAttribute('disabled', '');
-  }
-  else {
-    ModalSend.setAttribute('enabled', '');
-  }
-}
+// function CheckModalInput() {
+//   if(SubValue === "") {
+//     ModalSend.setAttribute('disabled', '');
+//   }
+//   else {
+//     ModalSend.setAttribute('enabled', '');
+//   }
+// }
 
 
 
-ModalSend.addEventListener("click", () => {
-CheckModalInput()
-})
+// ModalSend.addEventListener("click", () => {
+// CheckModalInput()
+// })

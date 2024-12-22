@@ -4,27 +4,38 @@
 
 
     &__list {
-        display: flex;
         gap: 30px;
+
+        @media screen and (min-width: 768px) {
+          display: flex;
+          flex-wrap: wrap;
+        }
       }
 
 
       &__item::before {
         @include AdvantagesItemStyle;
         background-image: url(/image/antena.png);
-     
+        width: 100%;
+        @media screen and (min-width: 768px) {
+          width: 354px;
+      height: 120px;
+          
+        }
       }
 
 
       &__item:nth-child(3)::before {
         @include AdvantagesItemStyle;
         background-image: url(/image/clocl.png);
+        width: 100%;
     
       }
 
       &__item:nth-child(4)::before {
         @include AdvantagesItemStyle;
         background-image: url(/image/cosmonavt.png);
+        width: 100%;
    
       }
 
@@ -36,6 +47,12 @@
         text-transform: uppercase;
         margin-bottom: 10px;
       margin-top: 30px;
+      @media screen and (min-width: 480px) and (max-width: 767px) {
+  text-align: center;
+      }
+      @media screen and (min-width: 768px) {
+        width: 270px;
+      }
       }
 
       &__text {
@@ -44,5 +61,11 @@
         font-weight: 400;
         line-height: 1.71;
         letter-spacing: 0.42px;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: 768px) {
+          width: 354px;
+        }
+
       }
   }

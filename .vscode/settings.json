@@ -1,7 +1,7 @@
 {
-    "scss.validate": true,
-    "editor.formatOnSave": true,          
-    "scss.lint.validVariables": true,      
-    "scss.lint.missingProperty": "warning"  
-  }
-  
+  "scss.validate": true,
+  "editor.formatOnSave": true,
+  "scss.lint.validVariables": true,
+  "scss.lint.missingProperty": "warning",
+  "liveServer.settings.port": 5501
+}

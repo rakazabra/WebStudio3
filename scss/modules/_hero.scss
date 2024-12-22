@@ -1,43 +1,71 @@
-main {
-  display: block;
-}
 
 .hero {
-    padding-top: 200px;
-    padding-bottom: 200px; 
-    text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../../image/herobcg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
- 
-    
-      &__logo {
-        color: $main-background;
-        text-align: center;
-        font-size: 44px;
-        font-weight: 900;
-        line-height: 60px;
-        letter-spacing: 2.64px;
-        text-transform: uppercase;
-        margin-bottom: 30px;
-      }
-    
-      &__button {
-        color: $main-background;
-        border-radius: 4px;
-        text-align: center;
-        background: $accent-color;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        width: 216px;
-        height: 50px;
-        padding: 10px 32px;
-        align-items: center;
-        border: none;
-        transition: transform 0.3s ease;
-      }
+  padding-top: 118px;
+  padding-bottom: 118px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    url(/image/herobcg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
 
-      &__button:hover {
-        transform: translateY(-10px);
-      }
+  @media screen and (min-width: 1200px){
+    padding-top: 200px;
+  padding-bottom: 200px;
+  }
+
+  
+&__logo {
+  color: white;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1.61;
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  animation-name: title-move;
+  animation-duration: 2000ms;
+
+@media screen and (min-width: 480px){
+  width: 360px;
+}
+
+
+   @media screen and (min-width: 1200px){
+    width: 696px;
+    font-size: 44px;
+    letter-spacing: 2.64px;
+    line-height: 1.36;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+
+&__button {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87; 
+  letter-spacing: 0.96px;
+  background-color: $accent-color;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+  @media screen and (min-width: 1200px){
+   padding: 10px 32px;
+  }
+}
+
+
 }
