@@ -1,6 +1,8 @@
 .footer {
-
+  padding-top: 60px;
     background-color: $footer-background;
+
+
     &__logo {
         color: $main-background;
         font-family: "Raleway";
@@ -25,9 +27,23 @@
 
 
       &__box {
-     @include contentCenter;
-        gap: 93px;
+        @media screen and (min-width: 768px) {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 165px;
+          justify-content: center ;
+        }
+  
       }
+
+      &__add {
+        text-align: center;
+        margin-bottom: 60px;
+        margin: auto;
+        
+      }
+
+   
 
       &__item {
         margin-bottom: 9px;
@@ -68,6 +84,7 @@
         display: flex;
         gap: 10px;
         margin-top: 20px;
+        justify-content: center;
       }
 
       &__fitem {
@@ -77,11 +94,11 @@
   }
 
 .add__sub {
-   margin-left: auto;
-    margin-left: 93px;
+    text-align: center;
+    margin-top: 60px;
 }
   .sub {
-    display: flex;
+    // display: flex;
 
 
     &__title {
@@ -94,6 +111,7 @@
       letter-spacing: 0.42px;
       text-transform: uppercase;
       margin-bottom: 20px;
+      margin-top: 60px;
       }
 
     &__input {
@@ -110,6 +128,8 @@
       line-height: 20px;
       letter-spacing: 0.48px;
       padding-left: 16px;
+      padding-top: 15px;
+      padding-bottom: 15px;
       }
 
       &__send {
@@ -131,6 +151,8 @@
         align-items: center;
         display: flex;
         gap: 10px;
+        margin: auto;
+        margin-top: 20px;
       }
 
       &__teg {

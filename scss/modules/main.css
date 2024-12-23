@@ -409,6 +409,7 @@ ul {
   margin-bottom: 50px;
 }
 .team__list {
+  text-align: center;
   gap: 30px;
 }
 @media screen and (min-width: 768px) {
@@ -440,8 +441,8 @@ ul {
   transform: translateY(-10px);
 }
 .team__img {
-  width: 270px;
-  height: 260px;
+  box-sizing: border-box;
+  width: 100%;
 }
 .team__box {
   padding-top: 30px;
@@ -536,6 +537,7 @@ ul {
 }
 
 .footer {
+  padding-top: 60px;
   background-color: #2f303a;
 }
 .footer__logo {
@@ -557,11 +559,18 @@ ul {
 .footer__list {
   margin-top: 9px;
 }
-.footer__box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 93px;
+@media screen and (min-width: 768px) {
+  .footer__box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 165px;
+    justify-content: center;
+  }
+}
+.footer__add {
+  text-align: center;
+  margin-bottom: 60px;
+  margin: auto;
 }
 .footer__item {
   margin-bottom: 9px;
@@ -597,6 +606,7 @@ ul {
   display: flex;
   gap: 10px;
   margin-top: 20px;
+  justify-content: center;
 }
 .social__fitem {
   background-color: rgba(255, 255, 255, 0.1);
@@ -604,13 +614,10 @@ ul {
 }
 
 .add__sub {
-  margin-left: auto;
-  margin-left: 93px;
+  text-align: center;
+  margin-top: 60px;
 }
 
-.sub {
-  display: flex;
-}
 .sub__title {
   color: #FFF;
   font-family: Roboto;
@@ -621,6 +628,7 @@ ul {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  margin-top: 60px;
 }
 .sub__input {
   width: 358px;
@@ -636,6 +644,8 @@ ul {
   line-height: 20px;
   letter-spacing: 0.48px;
   padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .sub__send {
   padding-top: 10px;
@@ -656,6 +666,8 @@ ul {
   align-items: center;
   display: flex;
   gap: 10px;
+  margin: auto;
+  margin-top: 20px;
 }
 .sub__teg {
   width: 24px;
