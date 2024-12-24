@@ -1,0 +1,353 @@
+body {
+  font-family: "Roboto" sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: 1px solid red;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.header {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 26px;
+    padding-bottom: 15px;
+  }
+}
+.header__box {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__logo {
+  color: #212121;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.72px;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .header__logo {
+    margin-right: 88px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__logo {
+    font-size: 26px;
+    letter-spacing: 0.78px;
+    margin-right: 93px;
+  }
+}
+.header__list {
+  display: none;
+  margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .header__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__list {
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+.header__item {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: transform 0.3s ease;
+}
+.header__item:hover, .header__item:focus {
+  transform: translateY(-10px);
+  color: #2196f3;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header__item:hover .header__icon, .header__item:focus .header__icon {
+  fill: #2196f3;
+}
+.header__icon {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+}
+.header__phone {
+  width: 10px;
+  height: 16px;
+  fill: #757575;
+}
+
+.nav__list {
+  color: var(--team-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
+  gap: 50px;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .nav__list {
+    display: flex;
+  }
+}
+.nav__link {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
+  padding-bottom: 31px;
+  transition: transform 0.3s ease;
+}
+.nav__link:hover, .nav__link:focus {
+  transform: translateY(-10px);
+  color: #2196f3;
+  border-bottom: 4px solid #2196f3;
+}
+.nav__link:hover .active, .nav__link:focus .active {
+  color: #2196f3;
+}
+
+.web-color {
+  color: #2196f3;
+}
+
+.active {
+  color: #2196f3;
+}
+
+.card {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.card__list {
+  display: flex;
+  text-align: center;
+  gap: 8px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.card__button {
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.48px;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.card__button:hover, .card__button:focus {
+  background-color: var(--accent-color);
+  color: var(--main-background);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+}
+
+.footer {
+  padding-top: 60px;
+  background-color: #2f303a;
+}
+.footer__logo {
+  color: #fff;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 0.78px;
+}
+.footer__color {
+  color: #2196f3;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.38;
+  letter-spacing: 0.78px;
+}
+.footer__list {
+  margin-top: 9px;
+}
+@media screen and (min-width: 768px) {
+  .footer__box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 165px;
+    justify-content: center;
+  }
+}
+.footer__add {
+  text-align: center;
+  margin-bottom: 60px;
+  margin: auto;
+}
+.footer__item {
+  margin-bottom: 9px;
+}
+.footer__link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+.footer__enjoy {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.address {
+  margin-top: 20px;
+}
+.address__way {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+.social__flist {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+.social__fitem {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+}
+
+.add__sub {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.sub__title {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+.sub__input {
+  width: 358px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.48px;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.sub__send {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 28px;
+  padding-right: 28px;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+  margin-left: 12px;
+  background-color: #2196f3;
+  border: none;
+  border-radius: 4px;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin: auto;
+  margin-top: 20px;
+}
+.sub__teg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}/*# sourceMappingURL=portfolio.css.map */
