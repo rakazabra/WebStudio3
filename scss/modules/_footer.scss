@@ -2,6 +2,10 @@
   padding-top: 60px;
     background-color: $footer-background;
 
+    @media screen and (min-width: 1200px) {
+      align-items: center;
+    }
+
 
     &__logo {
         color: $main-background;
@@ -33,6 +37,12 @@
           gap: 165px;
           justify-content: center ;
         }
+
+        @media  screen and (min-width: 1200px) {
+          flex-wrap: none;
+          gap: 93px;
+          justify-content: none;
+        }
   
       }
 
@@ -41,6 +51,11 @@
         margin-bottom: 60px;
         margin: auto;
         
+        @media screen and (min-width: 1200px) {
+          margin: none;
+          text-align: none;
+          
+        }
       }
 
    
@@ -96,6 +111,10 @@
 .add__sub {
     text-align: center;
     margin-top: 60px;
+
+    @media  screen and (min-width: 1200px) {
+      display: flex;
+    }
 }
   .sub {
     // display: flex;
